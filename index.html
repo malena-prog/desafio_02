@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inscrição Trilhas</title>
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
 </head>
 
 <body>
@@ -54,7 +54,7 @@
                         <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
 
                     <label for="telefone">Telefone</label>
-                        <input type="tel" id="telefone" name="telefone" placeholder="Digite seu número completo com DDD" maxlength="13" required>
+                        <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" maxlength="13" required>
 
                     <label for="documento">Documento de identidade</label>
                         <input type="file" id="documento" name="documento" accept=".pdf,.doc,.docx,.jpg,.png" required>
@@ -120,7 +120,7 @@
 
         </section>
                 <div class="inscricao__conteudo__formulario__submit">
-                    <input type="submit" value="Limpar formulário">
+                    <input type="reset" value="Limpar formulário">
                     <input type="submit" value="Fazer inscrição">
                 </div>
 
