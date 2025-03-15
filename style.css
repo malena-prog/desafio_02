@@ -1,1 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff6c7;
+}
+
+.cabecalho {
+    display: grid;
+    align-items: center;
+    margin: 2%;
+}
+
+.cabecalho__links {
+    font-size: 1.6vw;
+    text-decoration: none;
+    margin-left: 37%;
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+
+a {
+    font-size: 1.5vw;
+    text-decoration: none;
+    margin-right: 5%;
+    color: black;
+}
+
+.inscricao__conteudo__formulario {
+    display: flex;
+    flex-direction: column;
+    margin: 4%;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.inscricao {
+    font-family: "Roboto Condensed", sans-serif;
+    margin-left: 4%;
+}
+
+input {
+    outline: unset;
+    width: 20vw;
+    height: 5vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-top: 0.5vh;
+    font-size: 1vw;
+}
+
+.trilha__opcao {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1.2vw;
+}
+
+.input_termos {
+    width: 1vw;
+}
+
+.trilha {
+    width: 1vw;
+}
+
+.icones__trilha {
+    width: 4vw;
+}
+
+.rodape {
+    display: flex;
+    gap: 32vw;
+    margin-top: 2%;
+    background-color: #ffdbc8;
+}
+
+.inscricao__imagem {
+    width: 6%;
+
+}
+
+.imagem_logos {
+    width: 60%;
+}
